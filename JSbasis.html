@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>JavaScript Functions</h1>
+    <p>Dit is een voorbeeld van functies in JavaScript:</p>
+    <p id="TelOp"></p>
+    <p id="Verschil"></p>
+    <p id="Vermenigvuldig"></p>
+    <p id="Deel"></p>
+    <script>
+        "use strict";
+        function TelOp(getal1, getal2) {
+            return getal1 + getal2;
+        }
+        document.getElementById("TelOp").innerHTML = TelOp(40, 10);
+        
+        function Verschil(getal1, getal2) {
+            return getal1 - getal2;
+        }
+        document.getElementById("Verschil").innerHTML = Verschil(40, 10);
+        
+        function Vermenigvuldig(getal1, getal2) {
+            return getal1 * getal2;
+        }
+        document.getElementById("Vermenigvuldig").innerHTML = Vermenigvuldig(40, 10);
+        
+        function Deel(getal1, getal2) {
+            return getal1 / getal2;
+        }
+        document.getElementById("Deel").innerHTML = Deel(40, 10);
+    </script>
+</body>
+
+</html>
